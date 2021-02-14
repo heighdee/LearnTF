@@ -1,5 +1,7 @@
 # LearnTF
 
+> 此文档记录 tensorflow 相关的基础知识。陆续更新和整理。
+
 ## TensorFlow 基础
 
 tensorflow 使用 **图（graph）**来表示计算任务，在 **会话（session）**中执行graph，使用 **张量（tensor）**表示数据，通过 **变量（variable**）维护状态，通过 feed 和 fetch 来为操作赋值或者获取数据。
@@ -197,4 +199,3 @@ with tf.compat.v1.Session() as sess:
 |             |                                                      |
 |             |                                                      |
 |             |                                                      |
-

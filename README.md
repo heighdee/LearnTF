@@ -16,22 +16,16 @@
 ### 内容列表
 
 1. TensorFlow 官网文档
+2. 《机器学习》周志华
 
 
 
 ### 目录结构
 
 LearnTF
-├── Ducuments
-│   ├── ProjectManagement.md
-│   └── ProjectSummarization.md
-
-├── TF_snippets
-│   ├── 01_01.py
-│   └── 0X_0X.py
-
-├── LICENSE
-└── README.md
+├── Ducuments  
+├── MNIST  
+├── TF_snippets 
 
 说明：
 

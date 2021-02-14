@@ -1,3 +1,9 @@
+---
+
+typora-copy-images-to: ./pictures
+typora-root-url: ./pictures
+---
+
 # LearnTF
 
 > 此文档记录机器学习算法相关的基础知识。逐渐更新整理。
@@ -73,7 +79,7 @@
 
 #### 自助法
 
-<img src="/Users/jianhaidi/Documents/Drawio/机器学习_数据集.jpg" alt="机器学习_数据集" style="zoom:50%;" />
+<img src="/机器学习_数据集.jpg" style="zoom:50%;" />
 
 
 
@@ -127,13 +133,13 @@
 
 偏差方差窘境（bias-variance dilemma）：
 
-<img src="/Users/jianhaidi/Desktop/截屏2021-02-12 14.07.21.png" alt="截屏2021-02-12 14.07.21" style="zoom:60%;" />
+<img src="/截屏2021-02-12 14.07.21.png" style="zoom:50%;" />
 
 随着训练程度的加深，模型对数据的拟合程度加深，泛化误差的主因慢慢由偏差主导转向方差主导。
 
 ## 线性模型
 
-<img src="/Users/jianhaidi/Desktop/截屏2021-02-12 15.02.06.png" alt="截屏2021-02-12 15.02.06" style="zoom:50%;" />
+<img src="/截屏2021-02-12 15.02.06.png" style="zoom:45%;" />
 
 线性模型简单，但可以是很多复杂的非线性模型的基础。在线性模型上引入层级结构或者高维映射。
 
@@ -159,7 +165,7 @@
 
 思想：给定训练集，将所有的样例都投影到一条直线上，使得同类样例的投影点尽可能近，异类样例的投影点尽可能远。
 
-<img src="/Users/jianhaidi/Desktop/截屏2021-02-12 16.24.19.png" alt="截屏2021-02-12 16.24.19" style="zoom:60%;" />
+<img src="/截屏2021-02-12 16.24.19.png" style="zoom:50%;" />
 
 **求解目标**：最小化同类样例投影点的协方差+最大化类中心之间的距离。据此定义的求解目标，广义瑞利商（generalized Rayleigh quotient）
 
@@ -177,13 +183,13 @@
 
 核心问题：任务拆分策略（OvO、OvR、MvM）
 
-<img src="/Users/jianhaidi/Desktop/截屏2021-02-12 16.55.45.png" alt="截屏2021-02-12 16.55.45" style="zoom:50%;" />
+<img src="/截屏2021-02-12 16.55.45.png" style="zoom:50%;" />
 
 OvO 预测结果：投票产生
 
 OvR 预测结果：考虑分类器的预测置信度，最后选择置信度最大的
 
-<img src="/Users/jianhaidi/Desktop/截屏2021-02-12 16.58.18.png" alt="截屏2021-02-12 16.58.18" style="zoom:50%;" />
+<img src="/截屏2021-02-12 16.58.18.png" style="zoom:50%;" />
 
 MvM 的正反类构造必须经过特定的设计，不能随意选取。最常见的一种技术：纠错输出码（Error Correcting Output Codes， ECOC）
 
@@ -211,7 +217,7 @@ MvM 的正反类构造必须经过特定的设计，不能随意选取。最常�
 
 学习一棵泛化能力强的树：分而治之，每次选择一个属性，根据属性值往下延伸分支
 
-<img src="/Users/jianhaidi/Desktop/截屏2021-02-12 21.46.03.png" alt="截屏2021-02-12 21.46.03" style="zoom:50%;" />
+![](/截屏2021-02-12 21.46.03.png)
 
 学习算法关键：如何选择最优划分属性。
 

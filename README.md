@@ -22,7 +22,7 @@
 
 ### 目录结构
 
-LearnTF
+LearnTF<br>
 ├── Ducuments  
 ├── MNIST  
 ├── TF_snippets 
@@ -32,6 +32,3 @@ LearnTF
 1. Ducuments 文件夹：放入与项目相关的一些文档，包括但不限于：项目的计划和进程，项目总结，以及项目进行过程（即学习过程）中的一切笔记。
 2. TF_snippets文件夹：一些学习资料中帮助理解的小的代码片段。
 3. 学习过程中搭建的具体 TensorFlow 项目，会建立一级文件夹（与 Ducument 文件夹平级），该文件夹下放入所有的项目内容。
-
-
-

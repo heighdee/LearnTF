@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/jianhaidi/GitHubData/LearnTF/TF_snippets/model.ckpt"
+all_model_checkpoint_paths: "/Users/jianhaidi/GitHubData/LearnTF/TF_snippets/model.ckpt"

@@ -8,3 +8,8 @@
 
 方法：*gzip.open()* 方法读取文件，再利用 *numpy.frombuffer()* 方法将数据转换为 numpy 多维数组类型。
 
+### 画图
+
+问题：查看图片数据集，将预测结果绘制图片以便更直观的查看模型的预测效果
+
+方法：python 的 matplotlib 模块

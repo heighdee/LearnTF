@@ -19,8 +19,6 @@ tf.compat.v1.disable_eager_execution()  #关闭 eager 模式
 
 #### 图模式
 
-从运算效率来考虑，tensorflow 把复杂的运算放到 python 之外完成，但是切换的操作也是一笔大的开销。所以，先用图来描述操作，再切换到外部进行计算。
-
 包含两个步骤：
 
 1. **构建图**：创建好所有需要的资源（变量、占位符、算子...）并搭好整个运行逻辑（用什么数据参与什么操作得到什么结果）。图的节点为操作，边为数据。
@@ -184,7 +182,7 @@ input2 = tf.compat.v1.placeholder(tf.experimental.numpy.float32)
 output = tf.add(input1, input2)
 
 with tf.compat.v1.Session() as sess:
-    result = sess.run([output], feed_dict={input1:[7], input2:[2]})
+    result = sess.run([output], feed_dict={input1:[7], input2:[2]}) 
     #run执行 output 操作，该操作调用的方法所需要的数据被标记为 feed 数据，feed 数据作为 run 的参数传入
     print(result)
 ```

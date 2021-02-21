@@ -143,3 +143,5 @@ LICENSE
 *.gz
 *.xml
 *.iml
+*.npz
+*.json
